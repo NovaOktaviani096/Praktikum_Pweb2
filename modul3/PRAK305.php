@@ -23,6 +23,8 @@
             $kata2 = str_split($kata);
             $jumlah_huruf = count($kata2);
         }
+        echo $kata;
+        echo "</br>";
         foreach($kata2 as $KATA2){
             for($i=0;$i<=$jumlah_huruf;$i++)
             if($i==0){
